@@ -87,6 +87,7 @@ public:
         {
             if (it == msgs.end()) break;
             messages.insert(*it);
+            it++;
         }
 
         return true;
